@@ -1,6 +1,6 @@
 import React, { PropsWithChildren } from "react";
 import { Todo } from "../App";
-import { ListReducerAction, ListReducerActions } from "../reducers/listReducer";
+import { ListReducerAction, ListReducerActions } from "../reducers/listReducer.ts";
 
 type TodoItemProps = {
   todo: Todo;

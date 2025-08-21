@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Todo } from "../App";
-import { ListReducerAction, ListReducerActions } from "../reducers/listReducer";
-import { TodoForm } from "./todoForm";
-import { TodoItem } from "./todo";
+import { ListReducerAction, ListReducerActions } from "../reducers/listReducer.ts";
+import { TodoForm } from "./todoForm.tsx";
+import { TodoItem } from "./todo.tsx";
 
 type TodoListProps = {
   todos: Todo[];
