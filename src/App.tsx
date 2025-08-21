@@ -1,6 +1,6 @@
 import React, { useReducer } from "react";
-import { TodoList } from "./components/todoList";
-import { listReducer } from "./reducers/listReducer";
+import { TodoList } from "./components/todoList.tsx";
+import { listReducer } from "./reducers/listReducer.ts";
 import { v4 as uuidv4 } from "uuid";
 
 import "./styles.scss";
